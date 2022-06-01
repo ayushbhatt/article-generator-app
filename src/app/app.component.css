@@ -1,0 +1,65 @@
+.main-bg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.box{
+    width:35rem;
+    height:25rem;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 1rem;
+}
+
+.id{
+    color:hsl(150, 100%, 66%);
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 15px;
+    margin-top: 3rem;
+}
+
+.advice{
+    font-weight: 800;
+    text-align: center;
+    color:hsl(193, 38%, 86%);
+    font-size: 28px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.divider{
+    display: flex;
+    justify-content: center;
+}
+
+.button-position{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    position: absolute;
+    bottom: 18.2rem;
+}
+
+.custom-button{
+    padding: 1rem;
+    border-radius: 1000px;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    /* transition: all 0.2s ease-in-out; */
+}
+
+.hover-shadow{
+    box-shadow: 0 0px 15px rgba(82, 255, 168,1);
+}
+
+@media only screen and (min-height: 1440px){
+    .button{
+        bottom:34.5rem;
+    }
+}
